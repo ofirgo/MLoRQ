@@ -1,0 +1,7 @@
+torch
+tqdm
+argparse
+torchvision
+matplotlib
+ortools
+timm==1.0.12

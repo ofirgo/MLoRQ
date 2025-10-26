@@ -1,0 +1,37 @@
+vision_models:
+  vit_s:
+    orig_model_name: vit_small_patch16_224
+    float_eval_results:
+      accuracy: 81.39
+  vit_b:
+    orig_model_name: vit_base_patch16_224
+    float_eval_results:
+      accuracy: 85.11
+  deit_t:
+    orig_model_name: deit_tiny_patch16_224
+    float_eval_results:
+      accuracy: 72.16
+  deit_s:
+    orig_model_name: deit_small_patch16_224
+    float_eval_results:
+      accuracy: 79.85
+  deit_b:
+    orig_model_name: deit_base_patch16_224
+    float_eval_results:
+      accuracy: 81.98
+  swin_s:
+    orig_model_name: swin_small_patch4_window7_224.ms_in1k
+    float_eval_results:
+      accuracy: 83.31
+  swin_b:
+    orig_model_name: swin_base_patch4_window7_224
+    float_eval_results:
+      accuracy: 85.27
+  vit_l:
+    orig_model_name: vit_large_patch14_clip_224.laion2b_ft_in12k_in1k
+    float_eval_results:
+      accuracy: 87.892
+  vit_h:
+    orig_model_name: vit_huge_patch14_clip_224.laion2b_ft_in12k_in1k
+    float_eval_results:
+      accuracy: 88.278
